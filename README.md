@@ -21,8 +21,8 @@ from padjust import padjust
 from computeK2 import computeK2
 from main_relaxPvalues import relaxPvalues
     
-SubregionsIndices = [1,1,1,2,2,2] # a list 
-p_values = [0.001, 0.0005, 0.0001, 0.2, 0.4, 0.2] # a list
+SubregionsIndices = [1,1,1,2,2,2] # a list encoding the labels of atoms of clusters / communities e.g. node assigment to clusters
+p_values = [0.001, 0.0005, 0.0001, 0.2, 0.4, 0.2] # a list with the original p-values of the atoms
 assert(len(SubregionsIndices) == len(p_values))
 Alpha = 0.05
 globalAlpha = 0.05
