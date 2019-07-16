@@ -30,3 +30,5 @@ q = 1 # verbose
 subsetPvalues,relaxedpvalues,subsetScores = relaxPvalues(p_values,SubregionsIndices,Alpha,globalAlpha,method,q)
     
 ```
+
+![alt text](https://file.io/K2fA7M)
