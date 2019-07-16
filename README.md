@@ -6,4 +6,6 @@ This is the Python implementation of the Statistical Parametric Connectome (SPC)
 Reference: D.-E. Meskaldji et al, "Improved statistical evaluation of group differences in connectomes by screening-filtering strategy with application to study maturation of brain connections between childhood and adolescence", NeuroImage.
 
 
-The main function is called `main_relaxPvalues.py` and calls the other 2.
+The main function is called `main_relaxPvalues.py` and calls the `padjust.py` and `computeK2.py`.
+
+Dependencies: `numpy`, `scipy`
