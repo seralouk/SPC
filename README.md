@@ -9,3 +9,21 @@ Reference: D.-E. Meskaldji et al, "Improved statistical evaluation of group diff
 The main function is called `main_relaxPvalues.py` and calls the `padjust.py` and `computeK2.py`.
 
 Dependencies: `numpy`, `scipy`
+
+
+## Toy example
+
+```
+    from padjust import padjust
+    from computeK2 import computeK2
+    from main_relaxPvalues import relaxPvalues
+    
+    SubregionsIndices = [1,1,1,2,2,2]
+    p_values = [0.001, 0.0005, 0.0001, 0.2, 0.4, 0.2]
+    Alpha = 0.05
+    globalAlpha = 0.05
+    method = 'fdr'
+    q = 1
+    subsetPvalues,relaxedpvalues,subsetScores = relaxPvalues(p_values,SubregionsIndices,Alpha,globalAlpha,method,q)
+    
+```
