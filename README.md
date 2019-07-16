@@ -4,7 +4,7 @@
 
 This is the Python implementation of the Statistical Parametric Connectome (SPC) a.k.a Two-step procedure for statistical testing of connectomes introduced by D.-E. Meskaldji.
 
-The Matlab and R version can be found here: https://miplab.epfl.ch/index.php/software/spc
+The Matlab and R versions can be found here: https://miplab.epfl.ch/index.php/software/spc
 
 **Reference:** D.-E. Meskaldji et al, "Improved statistical evaluation of group differences in connectomes by screening-filtering strategy with application to study maturation of brain connections between childhood and adolescence", NeuroImage, 2015 (https://www.sciencedirect.com/science/article/pii/S1053811914009896?via%3Dihub)
 
