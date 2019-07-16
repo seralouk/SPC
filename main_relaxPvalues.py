@@ -17,6 +17,7 @@ def relaxPvalues(p_values,SubregionsIndices,Alpha,globalAlpha,method,q):
     INPUT arguments:
         - p_values: orignial p_values (correspondingedges/nodes or any single unit) , a list of len(p_values) == len(SubregionsIndices)
         - SubregionsIndices: vector with p_value assignment. Each p_value belongs to a subset, a list of len(p_values) == len(SubregionsIndices)
+          the list is encoding the labels of atoms of clusters / communities e.g. node assigment to clusters
         - Alpha: subset screening threshold (default 0.05). The screening threshold for subset p_values is Alpha in the Soft Thresholding Screening and Filtering (STSF) case.  The screening threshold in the Hard Thresholding SF (HTSF) is determined by the multiplicity correction used in the screening step. 
         - globalAlpha: the global type I error rate at the filtering level (default 0.05)
         - method: multiplicity correction used in the screening/filtering step ('fdr' or 'BH' for Bonferroni). Other procedures could be applied on the relaxed p_values. 
